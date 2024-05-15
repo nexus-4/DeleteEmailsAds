@@ -1,9 +1,9 @@
 import imaplib
 
 # Configurações da conta de e-mail
-email_address = "nadjajanara@hotmail.com" # Seu email
-password = "Companhia2565" # sua senha
-imap_server = "outlook.office365.com" # caso outlook, nao mudar
+email_address = "" # Seu email
+password = "" # sua senha
+imap_server = "" # caso outlook, nao mudar
 
 # Conectar ao servidor IMAP
 imap = imaplib.IMAP4_SSL(imap_server)
